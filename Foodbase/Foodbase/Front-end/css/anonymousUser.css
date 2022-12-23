@@ -1,0 +1,48 @@
+#not-logged-in-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25% auto;
+}
+
+p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#login-or-signup-button {
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(145, 187, 186);
+    font-size: 0.7em;
+}
+
+#login-or-signup-button:hover {
+    background-color: rgb(222, 154, 1);
+}
+
+#login-or-signup-button:active {
+    background-color: rgb(164, 136, 149);
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    #not-logged-in-text {
+        width: 50%;
+        font-size: 1em;
+        margin: 7% auto;
+    }
+
+    #login-or-signup-button {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #not-logged-in-text {
+        font-size: 0.6em;
+    }
+}

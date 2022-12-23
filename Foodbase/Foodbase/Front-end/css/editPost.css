@@ -1,0 +1,137 @@
+h4 {
+    margin-top: 0;
+    font-size: 0.6em;
+}
+
+h6 {
+    font-size: 0.35em;
+}
+.createPost {
+    display: flex;
+    flex-direction: column;
+}
+.text-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input label {
+    font-size: 0.5em;
+    margin: 8px 0 8px 0;
+    font-weight: bold;
+}
+p {
+    font-size: 0.4em;
+    font-weight: bold;
+}
+
+select {
+    border-style: none;
+    border-radius: 20px;
+    font-size: 0.4em;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+.text-input input{
+    display: flex;
+    font-size: 0.4em;
+    border-radius: 20px;
+    padding: 10px;
+    border-style: none;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.checkbox label {
+    font-size: 40px;
+}
+
+#save-edit {
+    font-size: 0.4em;
+    background-color: rgb(107, 133, 132);
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+#save-edit:hover {
+    background-color: #de9a01;
+}
+
+#description {
+    font-size: 0.4em;
+    resize: none;
+    border-radius: 20px;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    background-color: rgba(146, 169, 168, 0.53);
+    padding: 40px 16px 40px 16px;
+    border-radius: 20px;
+}
+
+.checkbox input {
+    width: 30px;
+    height:30px;
+}
+
+#food-facts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#food-facts div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 545px) and (max-width: 645px) {
+    #food-facts div {
+        display: grid;
+        flex-wrap: wrap;
+        width: 62%;
+        grid-template-columns: 50% 50% 50% 50%;
+    }
+    #food-facts {
+        margin-left: 95px;
+    }
+    #editPostForm {
+        width: 77%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #editPostForm {
+        width: 50%;
+        margin: auto;
+    }
+
+    #food-facts div {
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+    .text-input {
+        font-size: 0.8em;
+    }
+    select {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+

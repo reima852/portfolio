@@ -1,0 +1,142 @@
+
+--Ignore if database already exists
+CREATE DATABASE foodbase;
+USE foodbase;
+--end of comment
+
+CREATE TABLE user (
+	ID Int NOT NULL AUTO_INCREMENT,
+	email VARCHAR(45),
+	password VARCHAR(500),
+	username VARCHAR(45),
+	area VARCHAR(45),
+	role Int DEFAULT 1,
+	PRIMARY KEY (ID),
+	UNIQUE (email)
+);
+
+CREATE TABLE food_fact (
+	ID Int NOT NULL AUTO_INCREMENT,
+	name VARCHAR(45),
+	display_name VARCHAR(45),
+	type Int,
+	PRIMARY KEY (ID)
+);
+
+CREATE TABLE post (
+	ID Int NOT NULL AUTO_INCREMENT,
+	filename VARCHAR(45),
+	description VARCHAR(1000) DEFAULT "",
+	time_stamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
+	name VARCHAR(45),
+	owner_ID Int,
+	area VARCHAR(45),
+	PRIMARY KEY (ID),
+	FOREIGN KEY (owner_ID) REFERENCES user(ID)
+);
+
+CREATE TABLE post_preferences (
+	post_ID int NOT NULL,
+	food_fact_ID int NOT NULL,
+	CONSTRAINT PK_post_preferences PRIMARY KEY (post_ID, food_fact_ID)
+);
+
+CREATE TABLE post_reports (
+	ID Int NOT NULL AUTO_INCREMENT,
+	reason VARCHAR(1000) DEFAULT "",
+	time_stamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
+	post_ID Int,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (post_ID) REFERENCES post(ID)
+);
+
+CREATE TABLE user_preferences (
+	user_ID int NOT NULL,
+	food_fact_ID int NOT NULL,
+	CONSTRAINT PK_user_preferences PRIMARY KEY (user_ID, food_fact_ID)
+);
+
+CREATE TABLE message (
+   	ID Int NOT NULL AUTO_INCREMENT,
+    sender_ID Int,
+    receiver_ID Int,
+	time_stamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
+    text VARCHAR(1000) DEFAULT "",
+   	PRIMARY KEY (ID)
+);
+
+INSERT INTO food_fact(name,display_name,type)
+VALUES("gluten","Gluten-free",0),
+("fish","Fish-free",0),
+("egg","Egg-free",0),
+("lactose","Lactose-free",0),
+("milk","Milk-free",0),
+("soybean","Soybean-free",0),
+("nut","Nut-free",0),
+("sesame_seed","Sesameseed-free",0),
+("vegan","Vegan",1),
+("sugar","Sugar free",1),
+("meat","Meat free",1),
+("low_fat","Low fat",1);
+
+--VET (valid end time) not yet implemented      (canceled)
+--description DEFAULT is set to empty string
+--user roles 0 = admin, 1 = registered user
+
+--flagging not yet implemented
+--rating not yet implemented
+
+SHOW TABLES;
+DESCRIBE user;
+DESCRIBE food_fact;
+DESCRIBE post;
+DESCRIBE post_preferences;
+DESCRIBE post_reports;
+DESCRIBE user_preferences;
+DESCRIBE message;
+
+--DESCRIPTIONS FOR TABLES
+
+--  TABLE user              all the user data is store here except user preferences
+--	ID                      primary key of this table
+--	email                   user's email used for login and signup
+--	password                this is used for the user to login
+--	username                used to identify users
+--	area                    default area for user's posts
+--	role                    this gives privileges for users (0=admin, 1=registered user)
+
+--  TABLE food_fact         all the food facts are stored here
+--	ID                      primary key of this table
+--	name                    the name of a food fact
+--  display_name            the name being displayed at frontend
+--	type                    defines if food fact is a diet or allergy (0=allergy, 1=diet)
+
+--  TABLE post              all the user created posts are stored here
+--	ID                      primary key of this table
+--	filename                refers to the filename of the post's image file
+--	description             the main text inside a post
+--	time_stamp              the time the post was created
+--	name                    title of the post
+--	owner_ID                refers to the ID of the user who uploaded the post
+--	area                    refers to the location of the item in the  post
+
+--  TABLE post_preferences  all the post's food facts are stored here
+--	post_ID                 refers to the related post by ID (PK)
+--	food_fact_ID            refers to the related food fact by ID (PK)
+
+--  TABLE user_preferences  all the user's food fact preferences are stored here
+--	user_ID                 refers to the related user of this preference (PK)
+--	food_fact_ID            refers to the related food fact of this preference (PK)
+
+--  TABLE post_reports      user reports regarding posts are stored here
+--	ID                      primary key of this table (PK
+--  reason                  An explanation of why the report was made
+--  time_stamp              the time the report was made
+--	post_ID                 refers to the ID of the post (FK)
+
+--  TABLE message (
+-- 	ID                      primary key of the message
+--  sender_ID               refers to the user that sent the message
+--  receiver_ID             refers to the user that received the message
+--	time_stamp              time the message was sent
+--  text                    the text content of the message

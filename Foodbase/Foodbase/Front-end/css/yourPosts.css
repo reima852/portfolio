@@ -1,0 +1,51 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+figure span {
+    display: flex;
+    align-items: baseline;
+    margin-left: 30px;
+    align-self: flex-end;
+    margin-top: -67px;
+}
+
+
+.post-title {
+    font-size: 0.4em !important;
+}
+
+
+.fa-pen-to-square:hover {
+    color: rgb(255, 174, 0);
+}
+
+.fa-trash-can:hover {
+    color: rgb(168, 54, 16);
+}
+.fa-trash-can {
+    margin-left: 30px;
+    font-size: 0.2em!important;
+}
+.fa-pen-to-square {
+    font-size: 0.2em !important;
+}
+.profile-links {
+    font-size: 1.5em;
+}
+
+#your-posts-link {
+    color: rgb(45, 70, 70);
+}
+
+.descriptionText {
+    font-size: 0.25em !important;
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        justify-content: space-between !important;
+    }
+}

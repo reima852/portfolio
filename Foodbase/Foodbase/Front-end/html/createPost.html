@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create post</title>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/feed.css">
+    <link rel="stylesheet" href="../css/createPost.css">
+    <script src="https://kit.fontawesome.com/ee9ba64db8.js" crossorigin="anonymous"></script>
+    <!-- Amatic SC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<main>
+    <header>
+        <nav>
+            <a href="feed.html"><h1 class="home">Foodbase</h1></a>
+            <ul>
+                <li class="message"><a href="messages.html"><i class="fa-solid fa-envelope"></i><span id="messages-text">Messages</span></a></li>
+                <li class="profile"><a href="profile.html"><i class="fa-solid fa-user"></i><span id="profile-text">Profile</span></a></li>
+                <li class="logout"><a id="logout-link"><i class="fa-solid fa-right-from-bracket"></i><span id="logout-text">Logout</span></a></li>
+            </ul>
+        </nav>
+        <h4>Create a post</h4>
+    </header>
+
+
+        <form action="https://localhost:3000/post" method="post" id="createPost" enctype="multipart/form-data">
+            <div id="text-input">
+                <label for="area">Area:</label>
+                <select name="area" id="area">
+                    <!--Areas, js generated-->
+                </select>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" placeholder="Title" required>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Write a description" rows="4" cols="32" required></textarea>
+                <label for="picture">Select a picture:</label>
+                <input type="file" id="picture" name="picture" required>
+            </div>
+            <p id="label-food-facts">Is your product...</p>
+            <div id="food-facts">
+                <div id="allergens">
+                    <!--Allergens, js generated-->
+                </div>
+
+                <div id="diets">
+                    <!--Diets, js generated-->
+                </div>
+            </div>
+            <button type="submit" id="save-edit">Create a post!</button>
+        </form>
+</main>
+<script src="../jsUtils/areaListGen.js"></script>
+<script src="../jsUtils/checkBoxGen.js"></script>
+<script src="../jsUtils/url.js"></script>
+<script src="../jsUtils/logout.js"></script>
+<script src="../javascript/createPost.js"></script>
+</body>
+</html>

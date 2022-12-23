@@ -1,0 +1,140 @@
+h4 {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+#createPost {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+}
+#text-input {
+    display: flex;
+    flex-direction: column;
+}
+#text-input input, select{
+    font-size: 0.4em;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 24px 0 24px;
+    border-style: none;
+    flex: 1;
+}
+
+textarea {
+    font-size: 0.4em;
+    border-radius: 20px 0 0 20px;
+    padding: 10px;
+    margin: 0 24px 0 24px;
+    border-style: none;
+    resize: none;
+    overflow-y: scroll;
+    flex: 1;
+}
+
+
+span {
+    margin: 0 26px 26px;
+}
+
+
+#save-edit {
+    font-size: 0.5em;
+    background-color: rgb(145, 187, 186);
+    border-style: none;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+#save-edit:hover {
+    background-color: rgb(222, 154, 1);
+}
+#save-edit:active {
+    background-color: rgb(164, 136, 149);
+}
+
+form {
+    background-color: rgba(229, 198, 198, 0.5);
+    border-radius: 20px;
+}
+
+select option {
+    font-size: 1em;
+}
+
+#food-facts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+
+#label-food-facts {
+    font-size: 0.35em;
+    font-weight: bold;
+    margin: 26px 0 32px 32px;
+}
+
+
+#text-input label {
+    font-size: 0.4em;
+    font-weight: bold;
+}
+
+#description {
+    width: 90%;
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #createPost {
+        width: 50%;
+        margin: auto;
+    }
+    #text-input {
+        font-size: 0.8em;
+    }
+    #save-edit {
+        width: 24%;
+        padding: 8px;
+        font-size: 0.4em;
+    }
+    #description {
+        margin: auto;
+    }
+    #text-input input, select, textarea {
+        padding: 16px;
+    }
+
+    #food-facts div {
+        width: 80%;
+        font-size: 0.8em;
+
+    }
+    #text-input label {
+        font-weight: bold;
+        margin: 26px 0 26px 26px;
+
+    }
+
+    #label-foodfacts {
+        font-size: 0.3em;
+        font-weight: bold;
+    }
+
+    nav ul li {
+        margin-left: 32px;
+    }
+
+}
+
+@media screen and (min-width: 635px ) and (max-width: 733px) {
+    label {
+        margin: 0 0 26px 26px;
+    }
+}

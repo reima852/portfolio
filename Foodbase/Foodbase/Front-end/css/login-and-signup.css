@@ -1,0 +1,153 @@
+h2 {
+    font-size: 0.7em;
+}
+
+/*Login and signup form*/
+#login-form, #signup-form  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(229, 198, 198, 0.5);
+    font-size: 0.4em;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+/*Login & signup button*/
+
+#login-button, #signup-button {
+    margin: 50px auto;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(145, 187, 186);
+}
+
+#login-button:hover, #signup-button:hover {
+    background-color: rgb(222, 154, 1);
+}
+
+#login-button:active, #signup-button:active {
+    background-color: rgb(164, 136, 149);
+}
+
+/*Login and signup forms*/
+#login-form input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    font-size: 1.25em;
+}
+
+#signup-form input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    font-size: 1em;
+}
+
+#login-signup {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/*Dropdown menu of area*/
+select {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    border-style: none;
+    resize: none;
+    flex: 1;
+}
+
+#area {
+    width: 100%;
+    font-size: 1em;
+}
+
+/*Food facts*/
+#food-facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 0.6em;
+}
+
+#food-facts div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#food-facts div label {
+    width: 40%;
+}
+
+/*Media queries*/
+ @media screen and (min-width: 600px) {
+     /*Login and signup forms - desktop*/
+     #login-signup {
+        width: 50%;
+         font-size: 0.9em;
+         flex-direction: row;
+     }
+     #login-form {
+         padding-bottom: 0;
+         font-size: 0.4em;
+         flex: 50%;
+         margin: 16px;
+     }
+     #signup-form {
+         padding-bottom: 0;
+         flex: 50%;
+         margin: 16px;
+     }
+     #signup-form input {
+         font-size: 1.25em;
+     }
+     /*Login and signup buttons - desktop*/
+     #signup-button {
+         width: 40%;
+     }
+     #login-button {
+         width: 30%;
+     }
+
+     h2 {
+         font-size: 0.8em;
+         margin-left: 20px;
+     }
+
+    /*Food facts - desktop*/
+     #food-facts {
+        margin-left: 16px;
+     }
+     #food-facts div {
+         display: grid;
+         grid-template-columns: 40% 50% 40% 50%;
+         width: 60%;
+         padding: 8px;
+         margin: -8px auto;
+     }
+     #food-facts label {
+         margin-bottom: 8px;
+     }
+ }
+
+@media screen and (min-width: 258px ) and (max-width: 423px) {
+    #food-facts div {
+        display: grid;
+        grid-template-columns:  40% 50% 40% 50%;
+        margin-left: 82px;
+        width: 54%;
+    }
+}

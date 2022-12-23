@@ -1,0 +1,161 @@
+
+h4 {
+    font-size: 0.6em;
+}
+
+#username-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.timevalue {
+    margin-right: 30px;
+}
+h5, p {
+    font-size: 0.3em;
+    margin-left: 30px;
+}
+
+#contact {
+    font-size: 0.3em;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+.message-thread {
+    background-color: rgba(146, 162, 162, 0.51);
+    padding-bottom: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 20px;
+    border-top-style: groove;
+    margin-bottom: 32px;
+}
+#send-button {
+    background-color:  transparent;
+    border-style: none;
+    width: 20%;
+    margin-top: -40px;
+    align-self: flex-end;
+    margin-right: -6%;
+}
+#textarea-button .fa-solid {
+    align-self: flex-end;
+    cursor: pointer;
+}
+.fa-solid:hover {
+    color: #6b8581;
+}
+
+#textarea-button {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.received {
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 16px;
+}
+
+.sent {
+    text-align: right;
+    align-self: flex-end;
+    margin-right: 16px;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: rgba(255, 238, 211, 0.11);
+    margin-bottom: 16px;
+    border-radius: 20px;
+}
+
+
+.message-container-received {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220 191 204 / 56%);
+    border-radius: 30px;
+    align-self: flex-end;
+    margin: 0 16px 16px 0;
+    width: 43%;
+}
+
+.sender-username {
+    margin-bottom: -12px;
+    color: rgba(107, 133, 129, 0.97);
+    align-self: flex-end;
+    margin-right: 16px;
+}
+
+.receiver-username {
+    margin-bottom: -12px;
+    align-self: flex-start;
+    margin-left: 16px;
+    color: rgba(222, 236, 235, 0.97);
+}
+
+
+.message-container-sent {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: rgba(146, 162, 162, 0.51);
+    border-radius: 30px;
+    width: 43%;
+    margin: 0 16px 16px 0;
+}
+
+
+.timestamp-sender {
+    align-self: flex-end;
+    margin-top: -8px;
+    color: rgba(128, 143, 138, 0.97);
+    margin-right: 16px;
+}
+
+.timestamp-receiver {
+    margin-top: -8px;
+    color: rgba(128, 143, 138, 0.97);
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 600px) {
+    .message-container-sent, .message-container-received {
+        width: 35%;
+    }
+    .message-article {
+        width: 70%;
+        padding: 8vh;
+        background-color: rgba(164, 136, 149, 0.08);
+        border-radius: 20px;
+        margin: 56px auto;
+    }
+
+    .message-thread {
+        width: 80%;
+
+    }
+    h4 {
+        margin-top: 0;
+    }
+
+    .username-time {
+        width: 30%;
+        margin: auto;
+    }
+
+
+}

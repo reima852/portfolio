@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and signup</title>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/feed.css">
+    <link rel="stylesheet" href="../css/login-and-signup.css">
+    <!-- Amatic SC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <main>
+    <header>
+      <nav>
+        <a class="home" href="feed.html">Foodbase</a>
+      </nav>
+    </header>
+    <!--Just copy and paste the forms and needed scripts to the main html file, and/or add classes for styling-->
+    <div id="login-signup">
+      <!--Login form-->
+      <div id="login">
+      <h2>Login</h2>
+      <form method="post" id="login-form">
+        <label for="login-email">Email:</label>
+        <input id="login-email" type="text" name="username" placeholder="Email" required>
+        <label for="login-password">Password:</label>
+        <input id="login-password" type="password" name="password" placeholder="Password" minlength="8" required>
+        <button type="submit" id="login-button">Login</button>
+      </form>
+      </div>
+    <div id="signup">
+      <!--Signup form-->
+      <h2>Sign up</h2>
+      <form method="post" id="signup-form">
+
+        <label for="signup-username">Username:</label>
+        <input id="signup-username" type="text" name="username" placeholder="Username" maxlength="40" required>
+        <label for="signup-email">E-mail address:</label>
+        <input id="signup-email" type="email" name="email" placeholder="Email" maxlength="40" required>
+        <label for="signup-password">Password:</label>
+        <input id="signup-password" type="password" name="password" placeholder="Password" minlength="8" required>
+        <label for="signup-password-again">Re-enter password:</label>
+        <input id="signup-password-again" type="password" name="re-enter-password" placeholder="Password" minlength="8" required>
+
+        <label for="area">Your general location:</label>
+        <select name="area" id="area">
+          <!--Areas, js generated-->
+        </select>
+        <label for="food-facts">Feed preferences:</label>
+        <div id="food-facts">
+          <div id="allergens">
+            <!--Allergens, js generated-->
+          </div>
+
+          <div id="diets">
+            <!--Diets, js generated-->
+          </div>
+        </div>
+        <button type="submit" id="signup-button">Sign up</button>
+        <p id="signup-error-message"></p>
+      </form>
+    </div>
+    </div>
+  </main>
+  <script src="../jsUtils/url.js"></script>
+  <script src="../jsUtils/areaListGen.js"></script>
+  <script src="../jsUtils/checkBoxGen.js"></script>
+  <script src="../jsUtils/login.js"></script>
+  <script src="../javascript/login-and-signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details {
+    margin-top: -0.5em;
+}
+
+a {
+    font-size: 1.25em;
+}
+
+#contact {
+    border-radius: 20px;
+    font-size: 0.6em;
+    padding: 10px;
+    color: #657a77;
+    resize: none;
+    border-color: rgb(204, 174, 133);
+}
+#send-button {
+    margin-top: 5%;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    background-color: rgb(145, 187, 186);
+    font-size: 0.5em;
+}
+#send-button:hover {
+    background-color: rgb(222, 154, 1);
+}
+
+#send-button:active {
+    background-color: rgb(164, 136, 149);
+}
+
+.contact-label {
+    font-size: 0.6em;
+}
+
+#textarea-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#message-sent-container {
+    margin: auto;
+    font-size: 0.4em;
+    background-color: rgb(255, 197, 91);
+    border-radius: 50px;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+figure {
+    background-color: rgba(213, 210, 206, 0.66) !important;
+}
+
+.post-title {
+    font-size: 0.4em !important;
+}
+
+.message {
+    font-size: 1em !important;
+}
+
+nav ul li {
+    font-size: 1em !important;
+}
+.fa-solid:hover {
+    color: rgb(107, 133, 129);
+}
+
+@media screen and (min-width: 600px) {
+    .post-feed {
+        display: flex !important;
+        flex-direction: column;
+        margin: auto;
+        width: 60%;
+    }
+    #contact {
+        width: 100%;
+    }
+    nav {
+        justify-content: space-between;
+    }
+
+}
