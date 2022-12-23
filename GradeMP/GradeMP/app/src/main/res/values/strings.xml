@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GradeMP</string>
+
+    <!--Browsing fragment-->
+    <string name="browse_members">Browse Members</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="party">Party</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="name">Name</string>
+    <string name="search">Search</string>
+    <string name="write_a_name_or_party">Search for a name or party</string>
+
+    <!--Details fragment-->
+    <string name="mp_image_text">Image of the MP</string>
+    <string name="back">Back</string>
+    <string name="make_a_note">Notes</string>
+
+    <!--Notes fragment-->
+    <string name="notes_for">Notes for</string>
+    <string name="add">Add</string>
+    <string name="positive">Positive note?</string>
+    <string name="write_a_note">Write a note…</string>
+    <string name="status">Status</string>
+    <string name="mp_browser">MP Browser</string>
+    <string name="to_details">To Details</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+
+    <!--NoteDetail fragment-->
+    <string name="delete_note">Delete Note</string>
+    <string name="edit_the_note">Edit the note…</string>
+    <string name="noteDetails_return">Save and Return</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/browsingFragment">
+
+    <fragment
+        android:id="@+id/browsingFragment"
+        android:name="com.example.grademp.fragments.BrowsingFragment"
+        android:label="fragment_browsing"
+        tools:layout="@layout/fragment_browsing" >
+        <action
+            android:id="@+id/action_browsingFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.grademp.fragments.DetailsFragment"
+        android:label="DetailsFragment"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_detailsFragment_to_browsingFragment"
+            app:destination="@id/browsingFragment"
+            app:popUpTo="@id/browsingFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_detailsFragment_to_noteFragment"
+            app:destination="@id/noteFragment" />
+        <argument
+            android:name="mPID"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.grademp.fragments.NoteFragment"
+        android:label="NoteFragment"
+        tools:layout="@layout/fragment_browsing">
+        <action
+            android:id="@+id/action_noteFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popUpTo="@id/detailsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_noteFragment_to_browsingFragment"
+            app:destination="@id/browsingFragment"
+            app:popUpTo="@id/browsingFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_noteFragment_to_noteDetailFragment"
+            app:destination="@id/noteDetailFragment" />
+        <argument
+        android:name="mPID"
+        app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/noteDetailFragment"
+        android:name="com.example.grademp.fragments.NoteDetailFragment"
+        android:label="note_detail_fragment"
+        tools:layout="@layout/fragment_note_detail" >
+        <action
+            android:id="@+id/action_noteDetailFragment_to_noteFragment"
+            app:destination="@id/noteFragment"
+            app:popUpTo="@id/noteFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="NOTE_ID"
+            app:argType="integer" />
+        <argument
+            android:name="mPID"
+            app:argType="integer" />
+    </fragment>
+</navigation>
