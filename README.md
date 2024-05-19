@@ -7,15 +7,24 @@
 ## Games:
 
 
+
 ### Joe Rider
 
 - A simplistic 2D action adventure driving game
 	- My first coding project
  	- 3 coders (1st year)
-	- 3 levels
+	- Biggest contributions:
+		- Organizing the work
+		- Game design
+		- Level 2
+		- Collisions
+		
 	- Made with Unity in 5 weeks
 	- Coding languages: C#
 	- Platforms: Browser
+
+> [Joe Rider presentation] (https://docs.google.com/presentation/d/1JgOwCl5dgF3JspmgHmJ1DoMMfSOlDqIco25evdRAzcw/edit#slide=id.p)
+> [Joe Rider game in browser] (https://simmer.io/@Reima/joe-rider)
 
 
 ### Meow Mix Mayhem
@@ -32,6 +41,8 @@
 	- Made with Unity in 4 weeks
 	- Coding languages: C#
 	- Platforms: PC, Mobile, Browser
+
+> [Meow Mix Mayhem on itch.io] (https://justmars.itch.io/meow-mix-mayhem)
 
 
 ### Kalja Taxi
@@ -50,6 +61,12 @@
 	- Coding languages: C#
 	- Platforms: PC, Mobile, Browser
 	
+	
+	
+> [Kalja Taxi on itch.io](https://nixiii.itch.io/kalja-taxi) 
+
+	
+	
 ### Shipcrafter
 
 - Space-themed endless runner for pc
@@ -66,6 +83,12 @@
 	- Made with Unity in 3 weeks
 	- Coding languages: C#
 	- Platforms: PC, Browser
+	
+	
+	
+> [Shipcrafter on itch.io](https://team-halko.itch.io/shipcrafter) 
+	
+	
 
 ### Minigame Mirage
 
@@ -82,6 +105,12 @@
 	- Made with Unity in 4 weeks
 	- Coding languages: C#
 	- Platforms: Android, Browser
+	
+	
+	
+> [Minigame Mirage on itch.io](https://team-halko.itch.io/minigame-mirage)
+	
+	
 
 ### RoboChop
 
@@ -101,11 +130,44 @@
 	- Final task of the University Gamedev League 2022 competition
 	- Made with Unity in 2 weeks
 	- Coding languages: C#
-	- Platforms: PC, Browser
+	- Platforms: PC
 
 
 
-## Applications
+> [Robochop on itch.io](https://team-halko.itch.io/robochop)
+
+
+
+### Crops & Corpses
+
+- Post-apocalyptic farming and base building adventure game
+	- Own assets used except for music
+	- Made in collaboration with Stadin AO
+	- Biggest contributions:
+		- Lead Game design
+		- Inventory system
+		- Crafting system
+		- Upgrade system
+		- Quest system
+		- Villager AI
+		
+ 	- 9 coders (3rd year), 6 artists (2nd year), 1 marketing manager (4th year)
+	- Made with Godot in 8 weeks
+	- Coding languages: C#
+	- Platforms: PC
+
+
+
+> [Crops & Corpses on itch.io](https://tossu.itch.io/crops-and-corpses)
+
+
+
+
+
+
+## Applications:
+ 
+ 
  
 ### GradeMP
 
@@ -115,6 +177,11 @@
 	- Coding languages: Kotlin
 	- Platforms: Android
 
+
+
+> No Link, folder included with a demo video and source code
+ 
+ 
  
  ### Foodbase
  
@@ -125,3 +192,6 @@
 	- Made with Visual studio in 6 weeks
 	- Coding languages: Node.JS, Javascript, SQL, HTML
 	- Platforms: Browser
+
+
+> No Link, folder included with a demo video and source code
