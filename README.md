@@ -25,10 +25,10 @@
 
 
 
-[Joe Rider presentation](https://docs.google.com/presentation/d/1JgOwCl5dgF3JspmgHmJ1DoMMfSOlDqIco25evdRAzcw/edit#slide=id.p)
+- [Joe Rider presentation](https://docs.google.com/presentation/d/1JgOwCl5dgF3JspmgHmJ1DoMMfSOlDqIco25evdRAzcw/edit#slide=id.p)
 
 
-[Joe Rider game in browser](https://simmer.io/@Reima/joe-rider)
+- [Joe Rider game in browser](https://simmer.io/@Reima/joe-rider)
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-[Meow Mix Mayhem on itch.io] (https://justmars.itch.io/meow-mix-mayhem)
+- [Meow Mix Mayhem on itch.io](https://justmars.itch.io/meow-mix-mayhem)
 
 
 
@@ -71,7 +71,7 @@
 	
 	
 	
-[Kalja Taxi on itch.io](https://nixiii.itch.io/kalja-taxi) 
+- [Kalja Taxi on itch.io](https://nixiii.itch.io/kalja-taxi) 
 
 	
 	
@@ -94,7 +94,7 @@
 	
 	
 	
-[Shipcrafter on itch.io](https://team-halko.itch.io/shipcrafter) 
+- [Shipcrafter on itch.io](https://team-halko.itch.io/shipcrafter) 
 	
 	
 
@@ -116,7 +116,7 @@
 	
 	
 	
->[Minigame Mirage on itch.io](https://team-halko.itch.io/minigame-mirage)
+- [Minigame Mirage on itch.io](https://team-halko.itch.io/minigame-mirage)
 	
 	
 
@@ -142,7 +142,7 @@
 
 
 
-[Robochop on itch.io](https://team-halko.itch.io/robochop)
+- [Robochop on itch.io](https://team-halko.itch.io/robochop)
 
 
 
@@ -166,7 +166,7 @@
 
 
 
-[Crops & Corpses on itch.io](https://tossu.itch.io/crops-and-corpses)
+- [Crops & Corpses on itch.io](https://tossu.itch.io/crops-and-corpses)
 
 
 
@@ -187,7 +187,7 @@
 
 
 
-> No Link, folder included with a demo video and source code
+> No Link, folder can be found from the files with a demo video and source code
  
  
  
@@ -202,4 +202,4 @@
 	- Platforms: Browser
 
 
-> No Link, folder included with a demo video and source code
+> No Link, folder can be found from the files with a demo video, ER-Diagram and source code
