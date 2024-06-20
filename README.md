@@ -7,28 +7,98 @@
 ## Games:
 
 
+### Crops & Corpses
 
-### Joe Rider
-
-- A simplistic 2D action adventure driving game
-	- My first coding project
- 	- 3 coders (1st year)
+- Post-apocalyptic farming and base building adventure game
+	- Own assets used except for music
+	- Made in collaboration with Stadin AO
 	- Biggest contributions:
-		- Organizing the work
-		- Game design
-		- Level 2
-		- Collisions
+		- Lead Game design
+		- Inventory system
+		- Crafting system
+		- Upgrade system
+		- Quest system
+		- Villager AI
 		
-	- Made with Unity in 5 weeks
+ 	- 9 coders (3rd year), 6 artists (2nd year), 1 marketing manager (4th year)
+	- Made with Godot in 8 weeks
 	- Coding languages: C#
-	- Platforms: Browser
+	- Platforms: PC
 
 
 
-- [Joe Rider presentation](https://docs.google.com/presentation/d/1JgOwCl5dgF3JspmgHmJ1DoMMfSOlDqIco25evdRAzcw/edit#slide=id.p)
+- [Crops & Corpses on itch.io](https://tossu.itch.io/crops-and-corpses)
 
 
-- [Joe Rider game in browser](https://simmer.io/@Reima/joe-rider)
+
+### RoboChop
+
+- 1 vs 1 fighting game, inspired by Street Fighter and the like
+	- Own assets used except for music
+	- Controller support
+	- Nvidia REFLEX, RTX and DLSS implemented
+	- Biggest contributions:
+		- Overseeing and organizing the team
+		- Game design
+		- Fighting mechanics
+		- Animation tailoring
+		- Controls
+		- Game balancing
+		
+ 	- 2 coders (3rd year), 3 coders as artists (3rd year)
+	- Final task of the University Gamedev League 2022 competition
+	- Made with Unity in 2 weeks
+	- Coding languages: C#
+	- Platforms: PC
+
+
+
+- [Robochop on itch.io](https://team-halko.itch.io/robochop)
+
+
+
+### Minigame Mirage
+
+- Middle Eastern themed collection of fast-paced minigames.
+	- Only own assets used
+	- Biggest contributions:
+		- Overseeing and organizing the team
+		- Game design
+		- Main menu
+		- Game balancing
+		
+ 	- 5 coders (3rd year), 2 artists (2nd year)
+	- Task 3 of the University Gamedev League 2022 competition
+	- Made with Unity in 4 weeks
+	- Coding languages: C#
+	- Platforms: Android, Browser
+	
+	
+	
+- [Minigame Mirage on itch.io](https://team-halko.itch.io/minigame-mirage)
+
+
+	
+### Shipcrafter
+
+- Space-themed endless runner for pc
+	- Free assets except for the spaceship
+	- Biggest contributions:
+		- Overseeing and organizing the team
+		- Lead Game design
+		- Track parts
+		- General Technical artist's work (UI/Importing models and textures)
+		- Game balancing
+		
+ 	- 6 coders (3rd year), 3 artists (2nd year)
+	- Task 2 of the University Gamedev League 2022 competition
+	- Made with Unity in 3 weeks
+	- Coding languages: C#
+	- Platforms: PC, Browser
+	
+	
+	
+- [Shipcrafter on itch.io](https://team-halko.itch.io/shipcrafter) 
 
 
 
@@ -73,104 +143,29 @@
 	
 - [Kalja Taxi on itch.io](https://nixiii.itch.io/kalja-taxi) 
 
-	
-	
-### Shipcrafter
 
-- Space-themed endless runner for pc
-	- Free assets except for the spaceship
+
+### Joe Rider
+
+- A simplistic 2D action adventure driving game
+	- My first coding project
+ 	- 3 coders (1st year)
 	- Biggest contributions:
-		- Overseeing and organizing the team
-		- Lead Game design
-		- Track parts
-		- General Technical artist's work (UI/Importing models and textures)
-		- Game balancing
-		
- 	- 6 coders (3rd year), 3 artists (2nd year)
-	- Task 2 of the University Gamedev League 2022 competition
-	- Made with Unity in 3 weeks
-	- Coding languages: C#
-	- Platforms: PC, Browser
-	
-	
-	
-- [Shipcrafter on itch.io](https://team-halko.itch.io/shipcrafter) 
-	
-	
-
-### Minigame Mirage
-
-- Middle Eastern themed collection of fast-paced minigames.
-	- Only own assets used
-	- Biggest contributions:
-		- Overseeing and organizing the team
+		- Organizing the work
 		- Game design
-		- Main menu
-		- Game balancing
+		- Level 2
+		- Collisions
 		
- 	- 5 coders (3rd year), 2 artists (2nd year)
-	- Task 3 of the University Gamedev League 2022 competition
-	- Made with Unity in 4 weeks
+	- Made with Unity in 5 weeks
 	- Coding languages: C#
-	- Platforms: Android, Browser
-	
-	
-	
-- [Minigame Mirage on itch.io](https://team-halko.itch.io/minigame-mirage)
-	
-	
-
-### RoboChop
-
-- 1 vs 1 fighting game, inspired by Street Fighter and the like
-	- Own assets used except for music
-	- Controller support
-	- Nvidia REFLEX, RTX and DLSS implemented
-	- Biggest contributions:
-		- Overseeing and organizing the team
-		- Game design
-		- Fighting mechanics
-		- Animation tailoring
-		- Controls
-		- Game balancing
-		
- 	- 2 coders (3rd year), 3 coders as artists (3rd year)
-	- Final task of the University Gamedev League 2022 competition
-	- Made with Unity in 2 weeks
-	- Coding languages: C#
-	- Platforms: PC
+	- Platforms: Browser
 
 
 
-- [Robochop on itch.io](https://team-halko.itch.io/robochop)
+- [Joe Rider presentation](https://docs.google.com/presentation/d/1JgOwCl5dgF3JspmgHmJ1DoMMfSOlDqIco25evdRAzcw/edit#slide=id.p)
 
 
-
-### Crops & Corpses
-
-- Post-apocalyptic farming and base building adventure game
-	- Own assets used except for music
-	- Made in collaboration with Stadin AO
-	- Biggest contributions:
-		- Lead Game design
-		- Inventory system
-		- Crafting system
-		- Upgrade system
-		- Quest system
-		- Villager AI
-		
- 	- 9 coders (3rd year), 6 artists (2nd year), 1 marketing manager (4th year)
-	- Made with Godot in 8 weeks
-	- Coding languages: C#
-	- Platforms: PC
-
-
-
-- [Crops & Corpses on itch.io](https://tossu.itch.io/crops-and-corpses)
-
-
-
-
+- [Joe Rider game in browser](https://simmer.io/@Reima/joe-rider)
 
 
 ## Applications:
