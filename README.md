@@ -20,7 +20,7 @@
 		- Quest system
 		- Villager AI
 		
- 	- 9 coders (3rd year), 6 artists (2nd year), 1 marketing manager (4th year)
+ 	- 9 coders, 6 artists), 1 marketing manager
 	- Made with Godot in 8 weeks
 	- Coding languages: C#
 	- Platforms: PC
@@ -45,7 +45,7 @@
 		- Controls
 		- Game balancing
 		
- 	- 2 coders (3rd year), 3 coders as artists (3rd year)
+ 	- 2 coders, 3 coders as artists
 	- Final task of the University Gamedev League 2022 competition
 	- Made with Unity in 2 weeks
 	- Coding languages: C#
@@ -67,7 +67,7 @@
 		- Main menu
 		- Game balancing
 		
- 	- 5 coders (3rd year), 2 artists (2nd year)
+ 	- 5 coders, 2 artists
 	- Task 3 of the University Gamedev League 2022 competition
 	- Made with Unity in 4 weeks
 	- Coding languages: C#
@@ -90,7 +90,7 @@
 		- General Technical artist's work (UI/Importing models and textures)
 		- Game balancing
 		
- 	- 6 coders (3rd year), 3 artists (2nd year)
+ 	- 6 coders, 3 artists
 	- Task 2 of the University Gamedev League 2022 competition
 	- Made with Unity in 3 weeks
 	- Coding languages: C#
@@ -111,7 +111,7 @@
 		- Lead Game design
 		- Game balancing
 		
- 	- 6 coders (3rd year), 3 artists (2nd year)
+ 	- 6 coders, 3 artists
 	- Task 1 of the University Gamedev League 2022 competition
 	- Made with Unity in 4 weeks
 	- Coding languages: C#
@@ -133,7 +133,7 @@
 		- Taxi related sounds
 		- General Technical artist's work (UI/Importing models and textures)
 		
- 	- 2 coders (3rd year) and 7 artists (1st year)
+ 	- 2 coders, 7 artists 
 	- In collaboration with Stadin AO
 	- Made with Unity in 6 weeks
 	- Coding languages: C#
